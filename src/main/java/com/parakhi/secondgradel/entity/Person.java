@@ -4,9 +4,9 @@ public class Person {
 	private int id;
 	private String name,email,phone;
 	
-	public Person(){
+	private Person(){
 		
-		
+		//changesgi
 	}
 	
 	public Person(int id, String name, String email, String phone) {
