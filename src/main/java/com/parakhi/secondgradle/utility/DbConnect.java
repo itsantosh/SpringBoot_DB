@@ -4,12 +4,10 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import org.springframework.stereotype.Component;
-
 import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.PreparedStatement;
 
-@Component
+
 public class DbConnect {
 
 	Connection conn = null;

@@ -1,4 +1,4 @@
-package com.parakhi.secondgradel.services;
+package com.parakhi.secondgradle.services;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -9,14 +9,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import com.parakhi.secondgradel.entity.Person;
-import com.parakhi.secondgradel.interf.PersonInterface;
+import com.parakhi.secondgradle.entity.Person;
+import com.parakhi.secondgradle.interf.PersonInterface;
 import com.parakhi.secondgradle.utility.DbConnect;
 
-@Service
-@Qualifier("PersonService")
+
 public class PersonService {
-	@Autowired
+	
 	DbConnect dbCon;
 	
 	 public PersonService() {

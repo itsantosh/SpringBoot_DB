@@ -1,4 +1,4 @@
-package com.parakhi.secondgradel.entity;
+package com.parakhi.secondgradle.entity;
 
 public class Person {
 	private int id;
